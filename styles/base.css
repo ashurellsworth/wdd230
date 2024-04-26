@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header,footer,nav{
+    background-color: #bbb;
+    font-family: 'Roboto', sans-serif;
+}
+
+main .card{
+    border: 2px solid #dadada;
+    background-color: rgb(176, 230, 225);
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+main h2{
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: .5rem 0;
+}
+nav {
+	background-color: #36454f;
+	margin: 1px;
+}
+
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+}
+
+nav ul {
+	list-style-type: none;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+header img{
+    width: 90px ;
+    height: 90px;
+}
+header span{
+    color: #000000;
+    font-size: 30px;
+ 
+}
