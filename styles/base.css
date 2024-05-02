@@ -21,14 +21,19 @@ nav {
 nav ul {
   display: flex;
   flex-direction: row;
- align-items: stretch;
- color: black;
- font-weight: bold;
+  align-items: stretch;
+  color: black;
+  font-weight: bold;
 }
 nav li {
   list-style-type: none;
   padding: 1rem;
   color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0 0.5rem;
+  background-color: var(--back-color);
+  box-shadow: 0 0 2px black;
 }
 section ul li {
   list-style-type: none;
