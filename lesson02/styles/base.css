@@ -1,0 +1,86 @@
+:root {
+    --primary-color : #B098A4;
+    --secondary-color: #DBD9DB;
+    --back-color: #E5EBEA;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Roboto Condensed';
+  }
+
+  h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+  }
+  header {
+    background-color: var(--primary-color);
+    color: Black;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  header h1 {
+    color: black;
+    font-weight: 10;
+    font-size: 40px;
+  }
+  header h2 {
+    font-size: 25px;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    margin: 50px;
+  }
+  section {
+    display: block;
+    border: 1px solid Black;
+    background-color: var(--secondary-color);
+    text-align: left;
+    margin: 0 auto;
+  }
+  .principle {
+    margin: 10px;
+  }
+  section h3 {
+    font-size: 20px;
+    color: Black;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    margin: 0;
+  }
+  section h4 {
+    font-size: 18px;
+    color:Black;
+    padding: 10px;
+    margin: 0;
+  }
+  section a {
+    color: rgb(73, 134, 248);
+    text-decoration: none;
+    padding: 10px;
+  }
+  section p {
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    color: black;
+  }
+  section img {
+    display: block;
+    max-width: 90%;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  footer {
+    background-color: var(--primary-color);
+    color: black;
+    padding: 20px;
+    margin-top: 20px;
+  }
