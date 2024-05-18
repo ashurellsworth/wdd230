@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalamazoo Chamber of Commerce | Discover</title>
+    <meta name="description" content="Discover more about the Kalamazoo Chamber of Commerce and the city of Kalamazoo">
+    <meta name="author" content="Ashur Ellsworth">
+    <meta property="og:title" content="Kalamazoo Chamber of Commerce | Discover">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+
+<body>
+    <header>
+        <div class="banner">
+            <h1>Kalamazoo Chamber of Commerce</h1>
+        </div>
+        <div class="socials">
+            <a href="#" target="_blank"><img src="images/facebook.webp" alt="Facebook icon" width="25" height="25"></a>
+            <a href="#" target="_blank"><img src="images/x.webp" alt="X icon" width="25" height="25"></a>
+            <a href="#" target="_blank"><img src="images/instagram.webp" alt="Instragram icon" width="25"
+                    height="25"></a>
+        </div>
+    </header>
+    <button type="button" id="nav-button"></button>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html" class="active">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Discover</h2>
+        <div class="discover">
+            <aside class="sidebar">
+                <p id="visitMsg"></p>
+                <article>
+                    <img src="images/air-zoo.jpg" alt="Kalamazoo Air Zoo" width="350" height="197">
+                    <h3>Kalamazoo Air Zoo</h3>
+                    <p>From rare and historic to inspiring artwork and exhibits, there's always something new to discover at the Air Zoo. 
+                        The Air Zoo is a world-class, Smithsonian-affiliated aerospave and science museum with over 100 air and space artifacts, 
+                        inspiring interactive exhibits, <strong>full-motion flight simulators</strong>, 
+                        <strong>indoor amusement park rides</strong> and hands-on, <strong>science-based camps and classes</strong>.</p>
+                </article>
+                <section>
+                    <h3>Calendar</h3>
+                    <iframe src="https://calendar.google.com/calendar/embed?src=en.usa%23holiday%40group.v.calendar.google.com&ctz=America%2FChicago" 
+                            style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                </section>
+                <section>
+                    <h3>Kalamazoo, Michigan Map</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94470.5880296131!2d-85.67954790254167!3d42.274128458509935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88179d79493192b9%3A0xda7cf8d249573009!2sKalamazoo%2C%20MI!5e0!3m2!1sen!2sus!4v1716064759618!5m2!1sen!2sus" 
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+            </aside>
+            <div class="gallery">
+                <figure>
+                    <img src="images/Kalamazoo-State-Theatre.jpg" alt="Kalamazoo State Theatre" width="400"
+                        height="500" loading="lazy">
+                    <figcaption>Kalamazoo State Theatre</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/BellsEccentricCafe-101-2.webp" alt="Bell's Eccentric Cafe" width="400" height="320"
+                        loading="lazy">
+                    <figcaption>Bell's Brewery</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Gilmore-Car.webp" alt="Gilmore Car Museum" width="400" height="400"
+                        loading="lazy">
+                    <figcaption>Gilmore Care Museum</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Gene.JPG" alt="Gene The Pumpkin Man" width="400" height="225"
+                        loading="lazy">
+                    <figcaption>Gene The Pumpkin Man</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/farmers.jpg" alt="Kalamazoo Farmer Market" width="400" height="320"
+                        loading="lazy">
+                    <figcaption>Kalamazoo Farmers Market</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/fall_naturecenter.jpg" alt="Kalamazoo Nature Center" width="400" height="500"
+                        loading="lazy">
+                    <figcaption>Kalamazoo Nature Center/figcaption>
+                </figure>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-info">
+            <p>&copy; <span id="year"></span> Kalamazoo Chamber of Commerce</p>
+            <p>10000000000 contact@kzoo.com</p>
+            <p>Ashur Ellsworth | WDD 230 - Web Frontend</p>
+            <p id="lastModified"></p>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html" class="active">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/visitCounter.js"></script>
+</body>
+
+</html>
