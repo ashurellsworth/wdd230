@@ -3,76 +3,88 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kalamazoo Chamber of Commerce Site Plan</title>
-    <meta name="description" content="This page lays out the plan for the Kalamazoo Chamber of Commerce site. It gives details on the purpose, scenarios, colors, and typography">
+    <meta name="description"
+        content="The site plan for the Chamber of Commerce class project by Ashur Ellsworth, course WDD 230 - Web Frontend Development">
     <meta name="author" content="Ashur Ellsworth">
-    <link rel="icon" href="">
-    <link rel="stylesheet" href="styles/base.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Forum&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
 </head>
 
 <body>
     <header>
-        <img src="images/KCC.jpg" alt="KCC - Kalamazoo Chamber of Commerce Logo">
         <h1>Kalamazoo Chamber of Commerce Site Plan</h1>
-        <hr>
     </header>
-    <nav>
-        <section>
-            <h2>Site Name</h2>
-            <p>Site name is Kalamazoo Chamber of Commerce. I chose that name since that is the area I grew up in and
-                it makes it clear what the site is related to.</p>
-        </section>
-        <section>
-            <h2>Site Purpose</h2>
-            <p>The Kalamazoo Chamber of Commerce website serves to foster community engagement and promote economic
-                growth. Through our Home page, visitors are greeted with captivating content, community updates, and
-                business spotlights, encouraging exploration. Our Directory connects residents and businesses by listing
-                local chamber-affiliated organizations, while our Join page offers membership benefits tailored to
-                diverse needs, from non-profits to premium perks for businesses. By fulfilling these purposes, our
-                website aims to enhance both the community spirit and economic vitality of Eagle Mountain.</p>
-        </section>
-        <section>
-            <h2>Scenarios</h2>
+    <main>
+        <section class="about">
+            <h3>About the Site</h3>
+            <h4>Purpose</h4>
+            <p>The Kalamazoo Chamber of Commerce aims to help the city of Kalamazoo thrive and grow by strengthening the
+                bonds of its community. Our desire is to impulse the business owners and entrepreneurs that reside
+                within our borders to in turn make Kalamazoo strong and better every day.</p>
+            <h4>Scenarios</h4>
             <ul>
-                <li>Can you provide more details about the different membership levels and benefits for joining the
-                    chamber of commerce?</li>
-                <li>Where can visitors get information about local attractions and events happening int eh city?</li>
-                <li>Where can I get more information about local businesses in the area?</li>
+                <li>How can I as a business owner become part of the Kalamazoo Chamber of Commerce?</li>
+                <li>Where can I learn more about the history of this organization?</li>
+                <li>Who are the leaders of the chamber?</li>
             </ul>
         </section>
-        <section class="colors">
-            <h2>Color Schema</h2>
-            <p>Color palette: <a href="https://coolors.co/254559-89cad9-f2ebdc-f29849-f26a4b" target="_blank">HERE</a>
-            </p>
-            <p>These colors are based off the different seasons/colors you will experience in Kalamazoo.</p>
-            <p>Primary: #254559 - Used for headings</p>
-            <p>Secondary: #89CAD9 - Thinking of using it to separate sections</p>
-            <p>Accent: #F2EBDC - Used for background color</p>
-            <p>Accent: #F29849 - Used for button colors</p>
-            <p>Accent: #F26A4B - Used for button colors</p>
+        <section class="styleguide">
+            <h3>Style Guide</h3>
+            <h4>Color Schema</h4>
+            <table>
+                <tr>
+                    <td>Primary</td>
+                    <td class="primary">#6FA64E</td>
+                </tr>
+                <tr>
+                    <td>Secondary</td>
+                    <td class="secondary">#83ba64</td>
+                </tr>
+                <tr>
+                    <td>Accent 1</td>
+                    <td class="accent1">#1C211E</td>
+                </tr>
+                <tr>
+                    <td>Accent 2</td>
+                    <td class="accent2">#FDFFFC</td>
+                </tr>
+            </table>
+            <h4>Typography</h4>
+            <p>Montserrat</p>
+            <div class="coloruse">
+                <h5>Heading Example</h5>
+                <p><em>Paragraph Example.</em> This is a paragraph example with a dark font and a light background.
+                    Lorem ipsum
+                    dolor sit amet consectetur adipisicing elit. Soluta libero vel quae! Facilis praesentium recusandae
+                    voluptate sit excepturi reiciendis doloribus soluta labore cum! In, nihil natus? Velit dolores
+                    expedita officia!</p>
+                <p class="dark"><em>Paragraph Example.</em> This is a paragraph example with a light font and a dark
+                    background.
+                    Lorem ipsum
+                    dolor sit amet consectetur adipisicing elit. Soluta libero vel quae! Facilis praesentium recusandae
+                    voluptate sit excepturi reiciendis doloribus soluta labore cum! In, nihil natus? Velit dolores
+                    expedita officia!</p>
+                <p class="emphasis">This is important text or maybe a quote.</p>
+            </div>
         </section>
-        <section>
-            <h2>Typography</h2>
-            <p>Headers: <a href="https://fonts.google.com/specimen/Forum?query=forum">Forum Google Font</a></p>
-            <p>Body: <a href="https://fonts.google.com/specimen/Poppins?query=poppins">Poppins Google Font</a></p>
+        <section class="wireframes">
+            <h3>Wireframes</h3>
+            <h4>Home Page</h4>
+            <figure>
+                <img src="images/home-large-wireframe.jpg" alt="Home Page Wireframe - Desktop" width="400">
+                <figcaption>Desktop View</figcaption>
+            </figure>
+            <figure>
+                <img src="images/home-mobile-wireframe.jpg" alt="Home Page Wireframe - Mobile" width="200">
+                <figcaption>Mobile View</figcaption>
+            </figure>
         </section>
-        <section class="wires">
-            <h2>Wireframe</h2>
-            <img src="images/large-mobile-wireframe.jpg" alt="Large and mobile home page wireframes">
-        </section>
-    </nav>
-    <main></main>
-    <footer>
-        <p>&copy;<span id="currentYear"></span> KCC | Kalamazoo | WDD 230 Project</p>
-        <p>Last Modification: <span id="lastModified"></span></p>
-    </footer>
-    <script src="scripts/getdates.js"></script>
+    </main>
 </body>
 
 </html>
