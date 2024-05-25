@@ -7,9 +7,27 @@
     --font: 'Montserrat', Helvetica, sans-serif;
 }
 
+#mode {
+    position: absolute;
+    top: 2rem;
+    right: 8.3rem;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#mode img {
+    width: 30px;
+    height: auto;
+}
+
 body {
     font-family: 'Montserrat', Helvetica, sans-serif;
     color: var(--accent1-color);
+}
+
+body.dark-mode {
+    background-color: #2C2C2C;
+    color: #E0E0E0;
 }
 
 main {
@@ -24,9 +42,10 @@ h1, h2, h3 {
 header {
     height: 6rem;
     width: 100%;
+    background-image: url("../images/kzoo-banner.jpg");
     background-size: cover;
     background-position: center;
-    color: var(black);
+    color: white;
     display: grid;
     grid-template-columns: 2fr 1fr;
     align-items: center;
