@@ -82,11 +82,11 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgba(255, 183, 0, 0.2);
+    background-color: var(--secondary-color);
 }
 
 nav .active {
-    background-color: rgba(255, 183, 0, 0.6);
+    background-color: var(--primary-color);
 }
 
 ul {
@@ -122,10 +122,11 @@ main.dark {
 
 .hero span {
     position: absolute;
+    color: var(--primary-color);
     top: 5%;
     left: 5%;
     padding: .75rem;
-    background-color: rgba(255, 183, 0, 0.2);
+    background-color: var(--secondary-color);
     font-weight: 600;
 }
 
