@@ -24,7 +24,7 @@
 
     <body>
         <div id="mode">
-            <img src="images/" width="44" alt="dark mode toggle">
+            <img src="images/dark-mode.webp" width="44" alt="dark mode toggle">
         </div>
         <header>
             <img src="images/oldschool.jpg" alt="portrait" width="75" height="94">
@@ -43,9 +43,9 @@
         <main>
             <div class="hero">
                 <picture>
-                    <source media="(max-width: 400px)" srcset="images/hero.jpg">
-                    <source media="(max-width: 680px)" srcset="images/hero.jpg">
-                    <img src="images/detroit_temple_lds.webp" alt="Detroit Michigan Temple" width="3" height="2">
+                    <source media="(max-width: 400px)" srcset="images/wdd230-org-small.webp">
+                    <source media="(max-width: 680px)" srcset="images/wdd230-org-medium.webp">
+                    <img src="images/wdd230-org-large.webp" alt="Detroit Michigan Temple" width="3" height="2">
                 </picture>
                 <span>Detroit Michigan Temple</span>
             </div>
@@ -64,7 +64,11 @@
                 </section>
                 <section class="card">
                     <h2>Information</h2>
-                    <p>Weather: </p>
+                    <p>Kalamazoo, Michigan, USA</p>
+                    <img id="weather-icon" src="" alt="">
+                    <p>
+                        <span id="current-temp"></span> - <span id="weather-description"></span> - <span id="wind-speed"></span>
+                    </p>
                     <p>Number of Visits: <span id="visits"></span></p>
                 </section>
                 <iframe 
@@ -82,5 +86,6 @@
         </footer>
         <script src="scripts/getdates.js"></script>
         <script src="scripts/main.js"></script>
+        <script src="scripts/weather.js"></script>
     </body>
 </html>
