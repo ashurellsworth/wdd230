@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kalamazoo Chamber of Commerce | Thank you</title>
-    <meta name="description" content="Thank you page for aspiring members of the Guarapiche Chamber of Commerce">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kalamazoo Chamber of Commerce | Directory</title>
+    <meta name="description" content="Directory of members of the Kalamazoo Chamber of Commerce">
     <meta name="author" content="Ashur Ellsworth">
-    <meta property="og:title" content="Kalamazoo Chamber of Commerce | Thank you">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Kalamazoo Chamber of Commerce | Directory">
     <meta property="og:type" content="website">
     <meta property="og:image" content="">
     <meta property="og:url" content="">
@@ -37,29 +38,44 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
-            <li><a href="directory.html">Directory</a></li>
+            <li><a href="directory.html" class="active">Directory</a></li>
             <li><a href="join.html">Join</a></li>
         </ul>
     </nav>
     <main>
-        <h2>Thank you for your interest in the Kalamazoo Chamber of Commerce</h2>
-        <p class="thankyou">Your response has been recorded.</p>
+        <h2>Kalamazoo Members</h2>
+        <div class="view">
+            <button type="button" id="grid" class="active"><img src="images/grid-view.webp" alt="Grid View Button"
+                    width="30" height="30"></button>
+            <button type="button" id="list"><img src="images/list-view.webp" alt="List View Button" width="30"
+                    height="30"></button>
+        </div>
+        <div id="directory" class="grid"></div>
+        <!-- logo images
+        1st Source Bank: https://www.1stsource.com/app/uploads/2024/02/1stSourceBank-HeaderLogo-White.svg?x81949
+        A Kid Again: https://akidagain.org/wp-content/uploads/2023/07/header-logo.png 
+        AbsolutAire: https://www.absolutaire.com/sites/all/themes/client/img/logo.png
+        Advanced Health Pharmacy: https://advancedhealthpharmacymi.com/wp-content/uploads/2019/04/logo.png
+        Advia Credit Union: https://www.adviacu.org/images/default-source/advia-logos/advia-logo.svg?sfvrsn=1aab9b58_8/Advia-Logo.svg
+        America Red Cross: https://www.redcross.org/content/dam/redcross/imported-images/redcross-logo.png.img.png
+        AVB: https://static1.squarespace.com/static/ta/5a1ee44f2278e7b4255170cf/1529/assets/logo2.svg -->
     </main>
     <footer>
         <div class="footer-info">
             <p>&copy; <span id="year"></span> Kalamazoo Chamber of Commerce</p>
-            <p>10000000000 contact@kzoo.com</p>
+            <p>0424/0000000 contact@kzoo.com</p>
             <p>Ashur Ellsworth | WDD 230 - Web Frontend Fundamentals Project</p>
             <p id="lastModified"></p>
         </div>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
-            <li><a href="directory.html">Directory</a></li>
+            <li><a href="directory.html" class="active">Directory</a></li>
             <li><a href="join.html">Join</a></li>
         </ul>
     </footer>
     <script src="scripts/main.js"></script>
+    <script src="scripts/directory.js"></script>
 </body>
 
 </html>

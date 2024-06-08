@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "name": "1st Source Bank",
+            "address": "200 W Michigan Ave Kalamazoo, MI 49008",
+            "phone": "(269) 569-8094",
+            "url": "https://www.1stsource.com/",
+            "logo": "images/",
+            "membership": "Gold",
+            "contactPerson": "Wile E. Coyote"
+        },
+        {
+            "name": "A Kid Again",
+            "address": "2014 N Saginaw St #138 Midland, MI 48640",
+            "phone": "(989) 254-6398",
+            "url": "https://akidagain.org/chapter/michigan/",
+            "logo": "images/",
+            "membership": "Gold",
+            "contactPerson": "Jane Doe"
+        },
+        {
+            "name": "AbsolutAire",
+            "address": "5496 N Riverview Drive Cooper Township Kalamazoo, MI 49004",
+            "phone": "(800) 804-4000",
+            "url": "https://www.absolutaire.com/",
+            "logo": "images/",
+            "membership": "Gold",
+            "contactPerson": "Duke DeTain"
+        },
+        {
+            "name": "Advanced Health Pharamacy",
+            "address": "7916 Oakland Drive Portage, MI 49024",
+            "phone": "(269) 324-1100",
+            "url": "https://advancedhealthpharmacymi.com/",
+            "logo": "images/",
+            "membership": "Silver",
+            "contactPerson": "Hurley Lost"
+        },
+        {
+            "name": "Advia Credit Union",
+            "address": "6400 W Main Street Kalamazoo, MI 49000",
+            "phone": "(844) 238-4228",
+            "url": "https://www.adviacu.org/",
+            "logo": "images/",
+            "membership": "Silver",
+            "contactPerson": "John Doe"
+        },
+        {
+            "name": "America Red Cross",
+            "address": "5640 Venture Court Kalamazoo, MI 49009",
+            "phone": "(269) 353-6180",
+            "url": "https://www.redcross.org/local/michigan.html",
+            "logo": "images/",
+            "membership": "Bronze",
+            "contactPerson": "Newman Cox"
+        },
+        {
+            "name": "AVB",
+            "address": "4200 W Centre Avenue Portage, MI 49024",
+            "phone": "(269) 323-2022",
+            "url": "https://www.avbinc.com/",
+            "logo": "images/",
+            "membership": "NP",
+            "contactPerson": "John Jim"
+        }
+    ]
+}

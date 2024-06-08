@@ -2,32 +2,14 @@
     --primary-color: #1D5C5D;
     --secondary-color: #7ca06a;
     --accent1-color: #1C211E;
-    --accent2-color: #FDFFFC;
+    --accent2-color: #fdfffc;
 
     --font: 'Montserrat', Helvetica, sans-serif;
-}
-
-#mode {
-    position: absolute;
-    top: 2rem;
-    right: 8.3rem;
-    cursor: pointer;
-    z-index: 10;
-}
-
-#mode img {
-    width: 30px;
-    height: auto;
 }
 
 body {
     font-family: 'Montserrat', Helvetica, sans-serif;
     color: var(--accent1-color);
-}
-
-body.dark-mode {
-    background-color: #2C2C2C;
-    color: #E0E0E0;
 }
 
 main {
@@ -39,13 +21,13 @@ h1, h2, h3 {
     padding-left: 1rem;
 }
 
+/* header */
 header {
     height: 6rem;
     width: 100%;
-    background-image: url("../images/kzoo-banner.jpg");
     background-size: cover;
     background-position: center;
-    color: white;
+    color: var(--accent2-color);
     display: grid;
     grid-template-columns: 2fr 1fr;
     align-items: center;
@@ -55,6 +37,7 @@ header {
     margin: 0;
     padding-left: .5rem;
     font-size: 1.6rem;
+    color: black;
 }
 
 .socials {
@@ -72,10 +55,12 @@ header {
     background-color: #fff;
 }
 
+/* navigation */
 button {
     background-color: var(--primary-color);
-    color: var(--accent2-color);
+    color: black;
     border: none;
+    cursor: pointer;
 }
 
 #nav-button {
@@ -86,7 +71,6 @@ button {
 }
 
 #nav-button::before {
-    cursor: pointer;
     content: "\2630";
 }
 
@@ -133,6 +117,45 @@ ul {
     list-style-type: none;
 }
 
+/* footer */
+footer {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: .9rem;
+}
+
+footer p {
+    margin: .25rem;
+}
+
+footer ul {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a {
+    color: var(--accent2-color);
+}
+
+footer a:hover {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+/* home page */
+#invitation {
+    background-color: #6ea64e39;
+    padding: .25rem .5rem .5rem .5rem;
+    margin: .5rem;
+}
+
+#invitation button {
+    padding: .5rem;
+}
+
 .hero img {
     max-width: 100%;
     height: auto;
@@ -176,8 +199,44 @@ article p {
     margin: .25rem;
 }
 
-.weather p {
+.weather {
     text-align: center;
+}
+
+.weather img {
+    margin: -20px;
+}
+
+.weather-info {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: .25rem;
+}
+
+#forecast {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 10px;
+    padding: 0 .75rem;
+}
+
+#forecast p {
+    margin: .25rem;
+}
+
+.weather h3 {
+    font-size: 1rem;
+    margin: .75rem;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    padding: .5rem;
+    font-weight: 600;
+}
+
+.forecast-date {
+    font-size: .9rem;
 }
 
 .spot-card {
@@ -190,6 +249,11 @@ article p {
     text-align: center;
     font-weight: 500;
     gap: 2rem;
+    align-items: center;
+}
+
+.spot-card div {
+    padding-top: .75rem;
 }
 
 .spot-card h3 {
@@ -199,33 +263,6 @@ article p {
 
 .spot-card p {
     margin: 0;
-}
-
-footer {
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
-    margin-top: 1rem;
-    padding: 1rem;
-    text-align: center;
-    font-size: .9rem;
-}
-
-footer p {
-    margin: .25rem;
-}
-
-footer ul {
-    padding: 1rem;
-    display: flex;
-    justify-content: space-around;
-}
-
-footer a {
-    color: var(--accent2-color);
-}
-
-footer a:hover {
-    background-color: rgba(255, 255, 255, .2);
 }
 
 /* discover page */
@@ -368,4 +405,74 @@ footer a:hover {
     margin-top: -.75rem;
     padding: .5rem 1rem;
     background-color: #6ea64e39;
+}
+
+/* directory page */
+
+.view {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.view button {
+    border-radius: 5px;
+}
+
+.view button img {
+    margin-bottom: -4px;
+    padding: .5rem 0;
+    max-width: 60%;
+    height: 100%;
+}
+
+.view .active {
+    background-color: var(--accent1-color);
+}
+
+#directory {
+    margin-top: .5rem;
+}
+
+#directory h3 {
+    padding-left: 0;
+}
+
+#directory a {
+    color: var(--accent1-color);
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+#directory section * {
+    margin: .5rem 0;
+}
+
+/* grid view */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.grid section {
+    background-color: #6ea64e39;
+    padding: 1rem;
+    align-items: center;
+}
+
+/* list view */
+.list section {
+    padding: .1rem 1rem .5rem 1rem;
+}
+
+.list section:nth-child(even) {
+    background-color: #6ea64e39;
+}
+
+.list img {
+    width: 100%;
+    height: auto;
+    display: none;
 }
