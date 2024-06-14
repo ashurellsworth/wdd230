@@ -1,0 +1,94 @@
+:root {
+    --primary-color : #B098A4;
+    --secondary-color: #DBD9DB;
+    --accent1-color: #E5EBEA;/*--back-color: #E5EBEA;*/
+}
+
+form fieldset {
+    margin: 1rem;
+    background-color: var(--accent1-color);
+    border: none;
+    border-radius: 8px;
+}
+
+form legend {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    padding: .75rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+}
+
+form label {
+    display: block;
+    padding-top: 1rem;
+    font-size: .9rem;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"] {
+    display: block;
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 400px;
+}
+
+form input[type="range"] {
+    width: 300px;
+}
+
+#rangevalues {
+    display: flex;
+    width: 320px;
+    margin-left: 5px;
+}
+
+#rangevalues option {
+    flex: 1 1 auto;
+}
+
+#rangevalue {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: .5rem;
+    background-color: var(--primary-color);
+    width: fit-content;
+    border-radius: 8px;
+    margin: .25rem 0;
+    display: block;
+}
+
+form input[type="submit"] {
+    padding: .75rem 4rem;
+    border: none;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    margin: 1rem;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+form input[type="submit"]:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+form input:required {
+    border-left: solid 6px red;
+}
+
+form input:required:valid {
+    border-left: solid 6px green;
+}
+
+#passFeedback {
+    margin-top: .25rem;
+    font-size: .85rem;
+    padding: .25rem;
+}

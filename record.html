@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ashur Ellsworth - WDD 230 - Web Frontend Development</title>
+    <meta name="description"
+        content="Course assignment portal for Ashur Ellsworth, class WDD 230 - Web Frontend Development">
+    <meta name="author" content="Ashur Ellsowrth">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Ashur Ellsworth | WDD 230 - Web Frontend Development | Assignment Portal">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+
+<body>
+    <div id="mode">
+        <img src="images/dark-mode.webp" width="44" alt="Dark mode toggle button">
+        <!-- Icon by Icon Hubs on flaticon.com -->
+    </div>
+    <header>
+        <img src="images/oldschool.jpg" alt="Ashur Ellsworth" width="75" height="94">
+        <span>Ashur Ellsworth</span>
+    </header>
+    <nav>
+        <button type="button" class="nav-button"></button>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="chamber/">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="form.html">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="formconfirm">
+            <h1>Thank you for your response</h1>
+            <p>Your answer has been recorded.</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> | Ashur Ellsworth | United States of America</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

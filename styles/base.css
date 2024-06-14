@@ -209,3 +209,17 @@ footer p {
     color: var(--primary-color);
     font-size: 0.85rem;
 } 
+
+/* record.html */
+
+.formconfirm {
+    min-height: 200px;
+}
+
+.formconfirm p {
+    margin: .5rem 1rem;
+}
+
+main.dark .formconfirm p {
+    color: #fff;
+}
