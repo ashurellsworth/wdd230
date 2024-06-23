@@ -1,5 +1,5 @@
-const baseURL = "";
-const linksURL = "";
+const baseURL = "https://ashurellsworth.github.io/wdd230/";
+const linksURL = "https://ashurellsworth.github.io/wdd230/data/links.json";
 
 const list = document.querySelector("#link-list");
 
