@@ -1,3 +1,4 @@
+
 :root {
     --primary-color: #1D5C5D;
     --secondary-color: #7ca06a;
@@ -457,9 +458,9 @@ article p {
 }
 
 .grid section {
-    background-color: #6ea64e39;
-    padding: 1rem;
-    align-items: center;
+    background-color: #6ea64e39; 
+    padding: 1rem; 
+    align-items: center; 
 }
 
 /* list view */
