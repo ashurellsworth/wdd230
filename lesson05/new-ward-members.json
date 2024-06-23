@@ -1,0 +1,18 @@
+{
+    "familyName": "Stu",
+    "dateMoved": "2024-04-14",
+    "nOfMembers": 2,
+    "visitedByBishopric": true,
+    "members": [
+        {
+            "name": "Jane",
+            "gender": "F",
+            "dob": "1967-02-02"
+        },
+        {
+            "name": "Marty",
+            "gender": "M",
+            "dob": "1964-02-20"
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "weeks": [
+        {
+            "week": "Lesson 1",
+            "links": [
+                {
+                    "url": "lesson01/",
+                    "title": ""
+                },
+                {
+                    "url": "lesson01/",
+                    "title": ""
+                },
+                {
+                    "url": "",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "week": "Lesson 2",
+            "links": [
+                {
+                    "url": "lesson02/design.html",
+                    "title": "Design Principles"
+                },
+                {
+                    "url": "",
+                    "title": ""
+                },
+                {
+                    "url": "lesson02/",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "week": "Lesson 3",
+            "links": [
+                {
+                    "url": "lesson03/",
+                    "title": ""
+                },
+                {
+                    "url": "lesson03/",
+                    "title": ""
+                },
+                {
+                    "url": "lesson03/",
+                    "title": ""
+                },
+                {
+                    "url": "lesson03/",
+                    "title": ""
+                }
+            ] 
+        },
+        {
+            "week": "Lesson 4",
+            "links": [
+                {
+                    "url": "lesson04/",
+                    "title": ""
+                },
+                {
+                    "url": "lesson04/",
+                    "title": ""
+                },
+                {
+                    "url": "lesson04/",
+                    "title": ""
+                },
+                {
+                    "url": "lesson04/",
+                    "title": ""
+                }
+            ]  
+        },
+        {
+            "week": "Lesson 5",
+            "links": [
+                {
+                    "url": "lesson05/",
+                    "title": ""
+                },
+                {
+                    "url": "lesson05/new-ward-members.json",
+                    "title": "JSON"
+                },
+                {
+                    "url": "lesson05/prophets.html",
+                    "title": "Fetch API"
+                },
+                {
+                    "url": "lesson05/weather.html",
+                    "title": "Third-Party Weather API"
+                }
+            ]  
+        }
+    ]
+}
