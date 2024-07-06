@@ -46,60 +46,47 @@
         </ul>
     </nav>
     <main>
+        <div id="invitation">
+            <h2>Come to our meet and greet!</h2>
+            <p>Meet the members that make up the Kalamazoo Chamber of Commerce, this Wednesday at 6:30pm!</p>
+            <button type="button" id="invitation-button">✕</button>
+        </div>
         <div class="hero">
             <img src="images/dicover-kzoo-2.jpg" alt="" width="500" height="281">
         </div>
         <section class="call">
-            <h2>Lorem Ipsum</h2>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
-            <button type="button" class="call-button">Call to Action</button>
+            <h2>Join Our Chamber</h2>
+            <h3>Have a business or organization in Kalamazoo? Become a part of our chamber!</h3>
+            <button type="button" class="call-button" onclick="window.location.href='join.html'">Join</button>
         </section>
         <div class="content">
             <section class="events">
                 <h2>Events</h2>
                 <article>
-                    <h3>Lorem Ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A neque, id ducimus dignissimos
-                        cupiditate
-                        eveniet minus culpa deleniti doloremque voluptas voluptatibus enim, nihil provident consequatur
-                        consequuntur?</p>
+                    <h3>Job Day 07/11</h3>
+                    <p>Are you looking for a job in our community? Our members are looking! Come to City Hall
+                        Thursday, July 11th and see which offers match your skills!</p>
+                </article>
+                <article>
+                    <h3>Pizza Day! 07/26</h3>
+                    <p>Come eat pizza with us! Friday, June 26th!</p>
                 </article>
             </section>
             <section class="weather">
                 <h2>Weather</h2>
-                <div class="weather-info">
-                    <p>Lorem Ipsum</p>
-                    <p>Lorem Ipsum</p>
+                <div>
+                    <p>Kalamazoo, Michigan, USA</p>
+                    <img id="weather-icon" src="" alt="">
+                    <p class="weather-info">
+                        <span id="current-temp"></span> - <span id="weather-description"></span>
+                    </p>
+                    <h3>Weather for the following days</h3>
+                    <div id="forecast"></div>
                 </div>
             </section>
             <section class="spotlight">
                 <h2>Member Spotlights</h2>
-                <div class="spot-card">
-                    <div>
-                        <img src="https://picsum.photos/80" alt=""> <!--placeholder-->
-                        <h3>Lorem Ipsum</h3>
-                        <p>Lorem Ipsum</p>
-                        <p>Email</p>
-                        <p>Phone</p>
-                        <p>Website</p>
-                    </div>
-                    <div>
-                        <img src="https://picsum.photos/80" alt=""> <!--placeholder-->
-                        <h3>Lorem Ipsum</h3>
-                        <p>Lorem Ipsum</p>
-                        <p>Email</p>
-                        <p>Phone</p>
-                        <p>Website</p>
-                    </div>
-                    <div>
-                        <img src="https://picsum.photos/80" alt=""> <!--placeholder-->
-                        <h3>Lorem Ipsum</h3>
-                        <p>Lorem Ipsum</p>
-                        <p>Email</p>
-                        <p>Phone</p>
-                        <p>Website</p>
-                    </div>
-                </div>
+                <div class="spot-card"></div>
             </section>
         </div>
     </main>
@@ -118,7 +105,9 @@
         </ul>
     </footer>
     <script src="scripts/main.js"></script>
-    <script src="scripts/dark-mode.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/spotlight.js"></script>
+    <script src="scripts/invitation.js"></script>
     
 </body>
 

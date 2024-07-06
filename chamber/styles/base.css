@@ -408,6 +408,8 @@ article p {
     background-color: #6ea64e39;
 }
 
+
+
 /* directory page */
 
 .view {
@@ -458,9 +460,9 @@ article p {
 }
 
 .grid section {
-    background-color: #6ea64e39; 
-    padding: 1rem; 
-    align-items: center; 
+    background-color: #6ea64e39;
+    padding: 1rem;
+    align-items: center;
 }
 
 /* list view */
