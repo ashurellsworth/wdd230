@@ -1,9 +1,8 @@
-
 :root {
     --primary-color: #1D5C5D;
-    --secondary-color: #7ca06a;
+    --secondary-color: #83ba64;
     --accent1-color: #1C211E;
-    --accent2-color: #fdfffc;
+    --accent2-color: #FDFFFC;
 
     --font: 'Montserrat', Helvetica, sans-serif;
 }
@@ -26,6 +25,7 @@ h1, h2, h3 {
 header {
     height: 6rem;
     width: 100%;
+    background-image: url("../images/banner.webp"); 
     background-size: cover;
     background-position: center;
     color: var(--accent2-color);
@@ -38,7 +38,6 @@ header {
     margin: 0;
     padding-left: .5rem;
     font-size: 1.6rem;
-    color: black;
 }
 
 .socials {
@@ -59,7 +58,7 @@ header {
 /* navigation */
 button {
     background-color: var(--primary-color);
-    color: black;
+    color: var(--accent2-color);
     border: none;
     cursor: pointer;
 }
@@ -407,8 +406,6 @@ article p {
     padding: .5rem 1rem;
     background-color: #6ea64e39;
 }
-
-
 
 /* directory page */
 

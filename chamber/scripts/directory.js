@@ -4,7 +4,6 @@ const directory = document.querySelector("#directory");
 
 const url = "https://ashurellsworth.github.io/chamber/data/members.json";
 
-//get info from json file
 async function getMembers() {
     try {
         const response = await fetch(url);
