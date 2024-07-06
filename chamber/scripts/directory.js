@@ -2,7 +2,7 @@ const gridButton = document.querySelector("#grid");
 const listButton = document.querySelector("#list");
 const directory = document.querySelector("#directory");
 
-const url = "https://ashurellsworth.github.io/chamber/data/members.json";
+const url = "https://ashurellsworth.github.io/wdd230/chamber/data/members.json";
 
 async function getMembers() {
     try {

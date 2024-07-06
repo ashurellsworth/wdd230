@@ -4,7 +4,7 @@ const description = document.querySelector("#weather-description");
 const forecast = document.querySelector("#forecast");
 
 const currentUrl = "https://api.openweathermap.org/data/2.5/weather?lat=42.2917&lon=-85.5872&units=metric&appid=b8331a838ddd25dae8589cf38fc19a97";
-const forecastUrl = "https://api.openweathermap.org/data/2.5/weather?lat=42.2917&lon=-85.5872&units=metric&appid=b8331a838ddd25dae8589cf38fc19a97";
+const forecastUrl = "https://api.openweathermap.org/data/2.5/forecast?lat=42.2917&lon=-85.5872&units=metric&appid=b8331a838ddd25dae8589cf38fc19a97";
 
 async function getData() {
     try {
