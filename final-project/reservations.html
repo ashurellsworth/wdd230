@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoots - Reservations</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rentals.html">Rentals</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="reservation-form">
+            <h2>Make a Reservation</h2>
+            <form>
+                <label for="rental-date">Date</label>
+                <input type="date" id="rental-date" name="rental-date" required>
+
+                <label for="rental-period">Period</label>
+                <select id="rental-period" name="rental-period" required>
+                    <option value="half-day">Half Day</option>
+                    <option value="full-day">Full Day</option>
+                </select>
+
+                <label for="rental-type">Rental Type</label>
+                <select id="rental-type" name="rental-type" required>
+                    <option value="scooter">Scooter</option>
+                    <option value="atv">ATV</option>
+                    <option value="jeep">Jeep</option>
+                </select>
+
+                <label for="rental-number">Number of Rentals</label>
+                <input type="number" id="rental-number" name="rental-number" min="1" required>
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="location">Home State or Country</label>
+                <input type="text" id="location" name="location" required>
+
+                <label for="cruise-line">Cruise Line (if applicable)</label>
+                <input type="text" id="cruise-line" name="cruise-line">
+
+                <label for="comments">Special Accommodations/Comments</label>
+                <textarea id="comments" name="comments"></textarea>
+
+                <button type="submit">Submit Reservation</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Scoots. All rights reserved.</p>
+    </footer>
+</body>
+</html>

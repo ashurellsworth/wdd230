@@ -1,0 +1,45 @@
+@media only screen and (min-width: 40rem) {
+    header img {
+        box-shadow: 1px 1px 4px rgb(22, 22, 22);
+    }
+  
+    #mode {
+        top: 5px;
+        right: 5px;
+    }
+  
+    nav {
+        grid-template-rows: 1fr;
+    }
+  
+    .nav-button {
+        display: none;
+    }
+  
+    .nav-links {
+        display: flex;
+    }
+  
+    .nav-links li {
+        flex: 1 1 100%;
+    }
+  
+    .hero span {
+        font-size: 1.5rem;
+    }
+  
+    .cardparent {
+        margin: 0 2vw;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 10px;
+    }
+  
+    .cardparent section {
+        box-shadow: 1px 1px 4px grey;
+    }
+  
+    iframe {
+        grid-column: 1/3;
+    }
+  }
